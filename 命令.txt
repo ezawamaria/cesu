@@ -1,1 +1,2 @@
-CloudflareST.exe -n 200 -dn 20 -tp 443 -tl 300 -sl 20 -cfcolo HKG,LAX,SJC -url https://speed.cloudflare.com/__down?bytes=100000000
+CloudflareST.exe -n 200 -dn 10 -tp 443 -tl 300 -sl 50 -cfcolo LAX,SJC -url https://speed.cloudflare.com/__down?bytes=100000000
+CloudflareST.exe -n 200 -dn 10 -tp 443 -tl 300 -sl 50 -cfcolo HKG -url https://speed.cloudflare.com/__down?bytes=100000000
