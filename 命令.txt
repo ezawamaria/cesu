@@ -1,4 +1,0 @@
-@echo off
-cd /d %~dp0
-ipspeedtest.exe -file=ip.txt -outfile=ip.csv -port=443 -max=100 -speedtest=10 -tls=true -url=speed.cloudflare.com/__down?bytes=200000000
-CloudflareST.exe -n 200 -dn 10 -tp 443 -tl 300 -sl 10 -url https://speed.cloudflare.com/__down?bytes=200000000 -o ip.csv
